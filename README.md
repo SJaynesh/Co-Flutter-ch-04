@@ -64,8 +64,9 @@
 > 2. Title
 > 3. Action
 
+## Widget Tree (using draw.io website) :
 
-
+<p><img src = "https://github.com/SJaynesh/Co-Flutter-ch-04/assets/115562979/40ce03df-f4fd-41ee-a20c-af2ded45391c.png" width=60% height=50%></p>
 
 
 
