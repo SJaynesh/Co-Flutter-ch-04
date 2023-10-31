@@ -45,3 +45,28 @@
 ### SafeArea :
 > *  It provides padding around app content to prevent overlap with system UI elements.
 
+### Center :
+> * Center widget comes built-in with flutter, it aligns its child widget to the center of the available space on the screen.
+
+### Child : 
+> * This property is used to store the child widget of the container.
+
+### Text : 
+> * A Text is a widget in Flutter that allows us to display a string of text with a single line in our application.
+
+### Scaffold : 
+> * The Scaffold widget in Flutter is used to create the basic visual layout structure for material design.
+> * which provides many widgets or we can say APIs like Drawer, Snack-Bar, Bottom-Navigation-Bar, Floating-Action-Button, App-Bar, etc. 
+
+### Appbar Widget :
+> * Appbar widget is divide three main part.
+> 1. Leading
+> 2. Title
+> 3. Action
+
+
+
+
+
+
+
