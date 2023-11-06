@@ -64,9 +64,82 @@
 > 2. Title
 > 3. Action
 
+<br>
+
 ## Widget Tree (using draw.io website) :
 
 <p><img src = "https://github.com/SJaynesh/Co-Flutter-ch-04/assets/115562979/40ce03df-f4fd-41ee-a20c-af2ded45391c.png" width=60% height=50%></p>
+
+<br><br>
+
+## TextStyle class in detail :
+
+<br>
+
+<pre>
+    body: Center(
+            child: Text("$text\nI am Flutter developer",
+              style: TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.bold,
+                color: txtColor,
+                fontStyle: FontStyle.italic,
+                decoration: TextDecoration.combine([
+                  TextDecoration.underline,
+                  TextDecoration.overline,
+                ]),
+                decorationStyle: TextDecorationStyle.dashed,
+                decorationColor: Colors.red,
+                decorationThickness: 3,
+                letterSpacing: 5,
+                wordSpacing: 5,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+          ),
+</pre>
+
+<br>
+
+### Dumy Paragraph : `Lorem Ipsum`
+### Color : `Color Palette` , `Ui Gradients`
+
+<br><br>
+
+## Colors Class : 
+
+<br>
+
+> * 1 Colors.red
+> * 2 Colors.red.shade200
+> * 3 Colors.red[400]
+> * 4 Colors.red.withOpacity(0.8)
+> * 5 const Color.fromRGBO(100, 100, 100, 1)
+> * 6 const Color(0xff00000)
+
+<br><br>
+
+## Display content using variables & string interpolation :
+
+> * That is, we can give text, color, etc. in the app from a variable.
+
+<br>
+
+<pre>
+        Color appbarColor = const Color(0xffFFF2D8);
+        Color bgColor = const Color(0xffBCA37F);
+        Color txtColor = const Color(0xff113946);
+    
+        String appbarText = "Flutter App";
+        String text = "Jaynesh 😊 Sarkar";
+</pre>
+
+
+
+
+
+
+
 
 
 
