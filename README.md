@@ -134,7 +134,17 @@
         String text = "Jaynesh 😊 Sarkar";
 </pre>
 
+<br><br>
 
+## RichText() widget :
+> * `The RichText widget displays text that uses multiple different styles.`
+> * The text to display is described using a tree of TextSpan objects, each of which has an associated style that is used for that subtree.
+> * Text property has to be given in RichText.
+> * RichText has text color by default white.
+
+<pre>
+    
+</pre>
 
 
 
